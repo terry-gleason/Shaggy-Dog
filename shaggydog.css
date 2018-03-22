@@ -1,0 +1,133 @@
+/*Universal*/
+
+:root{
+    background: aquamarine;
+}
+body{
+    font-family: Palatino; 
+}
+
+
+header{
+    margin:0%;
+}
+/*break point - 480px*/
+
+@media only screen and (min-width: 480px){
+
+nav{
+    flex-direction: column;
+
+}
+
+
+
+footer{
+    background-color: darkgray; 
+    text-align: center;
+    height: 20px;
+    padding: 5px;
+}
+
+}
+/*break point - 700 and 768 */
+
+@media only screen and (min-width: 768px),
+       only screen and (min-width: 700px) and (orientation: landscape) {
+
+    
+}
+
+/*break point - 1140px*/
+
+@media only screen and (min-width: 1140px){
+
+
+
+nav{
+    align-content: center;
+    background-image: url(Mainpic.jpg);
+    padding-top: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: right;
+    height: 190px;
+    text-shadow: 15px;
+    font-size: 25px;
+
+}
+
+.number{
+    color: turquoise;
+}
+.about{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
+}
+
+.pics{
+    height: 350px;
+    width: 350px;
+    text-align: center;
+}
+
+
+
+
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;  
+    flex-basis: 33%;
+    object-fit: contain;
+
+}
+
+.services{
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    background-color: cyan;
+    color: hotpink;
+    border: 1px solid black;
+    border-radius: 70%;
+}
+
+ul{
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+
+footer{
+    background-color: darkgray; 
+    text-align: center;
+    height: 90px;
+    padding-top: 20px;
+}
+
+body{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.name{
+    float: left;
+
+}
+
+
+.list{
+    text-align: center;
+}
+}
