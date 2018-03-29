@@ -1,0 +1,26 @@
+Description
+
+This is a website for my wife's mobile grooming business. I wanted a 
+responsive page that was easy to navigate.
+
+Custom CSS Classes
+
+The custom CSS clases I used are:
+.name, .danipic, .mollypic - mainly used to float objects
+.flex-container - used flexbox for our gallery
+.col - used to create and style two columns for the About Us section.
+also used - .wrapper, .under, .number, .about, .services, .pics, .lists
+
+Custom IDs
+
+The custom IDs I used were for the purpose of linking to parts of the 
+page.
+They are:
+aboutus, ourgallery, contactus, pictures, service
+
+Custom JavaScript
+
+The JavaScript function I created is a for loop using mouseover and 
+mouseout. It enlarges the navigation links and changes them to capital 
+letters when hovered over and goes to lowercase when the cursor 
+leaves.
